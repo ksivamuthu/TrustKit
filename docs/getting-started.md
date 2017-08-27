@@ -213,7 +213,7 @@ First, TrustKit should be initialized by adding configuration keys to the App's
 _Info.plist_ file under a `TSKConfiguration` dictionary key, instead of using 
 `TrustKit`'s initialization method:
 
-    ![](https://datatheorem.github.io/TrustKit/images/linking3_dynamic.png)
+   ![](https://datatheorem.github.io/TrustKit/images/linking3_dynamic.png)
 
 By setting the `kTSKSwizzleNetworkDelegates` key to `YES`, TrustKit will then 
 perform method swizzling on the App's `NSURLSession` and `NSURLConnection` 
